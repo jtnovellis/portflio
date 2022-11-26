@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <div className='mt-6 text-center text-gray-500'>
         <p className='mb-5'>
-          Step by step every day is better than a lot sometimes
+          Step by step every day is better than a lot sometimes.
         </p>
         <Link
           className='border border-blue-600 text-blue-600 rounded-md p-2'
