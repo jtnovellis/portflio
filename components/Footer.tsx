@@ -8,17 +8,17 @@ import {
 const socialData = [
   {
     label: 'GitHub',
-    icon: <IconBrandGithub />,
+    icon: <IconBrandGithub color='#2563eb' />,
     link: 'https://github.com/jtnovellis',
   },
   {
     label: 'Twitter',
-    icon: <IconBrandTwitter />,
+    icon: <IconBrandTwitter color='#2563eb' />,
     link: 'https://twitter.com/JairojairtoroN',
   },
   {
     label: 'LinkedIn',
-    icon: <IconBrandLinkedin />,
+    icon: <IconBrandLinkedin color='#2563eb' />,
     link: 'https://www.linkedin.com/in/jairotoronovellis',
   },
 ]
@@ -29,7 +29,7 @@ const socials = socialData.map((item) => (
       href={item.link}
       target='_blank'
       rel='noopener noreferrer'
-      className='flex mr-8'
+      className='flex text-blue-600'
     >
       {item.icon}
       <span className='ml-1'>{item.label}</span>
@@ -39,8 +39,8 @@ const socials = socialData.map((item) => (
 
 export default function Footer() {
   return (
-    <footer className=''>
-      <ul className='flex justify-center'>{socials}</ul>
+    <footer className='fixed bottom-0 w-full flex items-center justify-center py-6'>
+      <ul className='flex w-full justify-around'>{socials}</ul>
     </footer>
   )
 }
