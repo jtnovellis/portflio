@@ -19,7 +19,9 @@ export default function Layout({ children }: LayoutProps) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <main className=' md:max-w-xl'>{children}</main>
+      <main className='md:max-w-xl mt-[5rem] h- md:mx-auto mb-24'>
+        {children}
+      </main>
       <Footer />
     </>
   )
