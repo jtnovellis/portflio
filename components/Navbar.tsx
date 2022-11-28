@@ -50,8 +50,8 @@ export default function Navbar() {
             </span>
           </>
         </Link>
-        <ul className='px-3 hidden'>{desktopLinks}</ul>
-        <button onClick={() => setShow((prev) => !prev)}>
+        <ul className='px-3 hidden md:flex'>{desktopLinks}</ul>
+        <button className='md:hidden' onClick={() => setShow((prev) => !prev)}>
           <IconMenu2 color='rgb(29, 78, 216)' />
         </button>
         {show && (
