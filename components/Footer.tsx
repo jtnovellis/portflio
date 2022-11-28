@@ -39,7 +39,7 @@ const socials = socialData.map((item) => (
 
 export default function Footer() {
   return (
-    <footer className='fixed bottom-0 w-full flex items-center justify-center py-6'>
+    <footer className='fixed bottom-0 w-full flex items-center justify-center py-6 bg-white'>
       <ul className='flex w-full justify-around'>{socials}</ul>
     </footer>
   )

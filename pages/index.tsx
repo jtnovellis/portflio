@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <section className='px-5 mt-4 h-full'>
+    <section className='px-5 mt-14 h-full mb-24'>
       <div className='py-12'>
         <h1 className='text-6xl text-center font-bold bg-gradient-to-r from-blue-600 via-purple-500 to-indigo-400 text-transparent bg-clip-text'>
           Jairo Jair Toro Novellis
@@ -18,7 +18,7 @@ export default function Home() {
           alt='Profile Image'
           width='180'
           height='180'
-          className='rounded-full transform hover:translate-y-2'
+          className='rounded-full md:transform md:hover:translate-y-1 md:transition-transform'
         />
       </div>
       <div className='mt-6 text-center text-gray-500'>

@@ -40,8 +40,8 @@ export default function Navbar() {
   ))
 
   return (
-    <header className='px-3 w-full'>
-      <nav className='flex justify-between max-w-5xl py-4 px-6 mx-auto rounded-lg my-2 shadow-xl h-20'>
+    <header className='px-3 w-full fixed top-0'>
+      <nav className='flex justify-between max-w-5xl py-4 px-6 mx-auto rounded-lg my-2 shadow-xl h-20 bg-white'>
         <Link href='/' className='flex items-center'>
           <>
             <IconFolders size={32} color='rgb(29, 78, 216)' />
