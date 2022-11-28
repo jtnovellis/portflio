@@ -12,7 +12,7 @@ export default function Home() {
           Full Stack Developer
         </h2>
       </div>
-      <div>
+      <div className='lg:max-w-lg'>
         <div className='flex justify-center items-center'>
           <Image
             src='/jairo.png'
@@ -26,7 +26,7 @@ export default function Home() {
           <p className='mb-5 sm:mb-12'>
             Step by step every day is better than a lot sometimes.
           </p>
-          <p>
+          <p className='hidden lg:block'>
             I am a developer and musician with a fervent passion for the
             technology with excellent interpersonal relationships. I am always
             looking for new challenges, creating solutions and making myself
