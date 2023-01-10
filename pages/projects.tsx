@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import { projectsData } from '../utils/projectsData'
+import React from 'react';
+import Image from 'next/image';
+import { projectsData } from '../utils/projectsData';
 
 export default function Projects() {
   const projects = projectsData.map((project) => {
@@ -61,10 +61,12 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    )
-  })
+    );
+  });
 
   return (
-    <div className='flex flex-col justify-center mt-[5rem]'>{projects}</div>
-  )
+    <section className='flex flex-wrap justify-center mt-[6.5rem]'>
+      {projects}
+    </section>
+  );
 }

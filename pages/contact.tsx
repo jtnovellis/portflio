@@ -1,5 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 export default function Contact() {
-  return <div>Contact</div>
+  function handleSubmit() {}
+  return (
+    <section>
+      <form onSubmit={handleSubmit}>input</form>
+    </section>
+  );
 }

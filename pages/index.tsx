@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -34,12 +34,12 @@ export default function Home() {
           </p>
           <Link
             className='border border-blue-600 text-blue-600 rounded-md p-2'
-            href='/about'
+            href='/contact'
           >
-            More about me
+            Contact me
           </Link>
         </div>
       </div>
     </section>
-  )
+  );
 }
