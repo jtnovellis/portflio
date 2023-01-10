@@ -15,9 +15,5 @@ export default function Projects() {
     );
   });
 
-  return (
-    <section className='flex flex-wrap justify-center mt-[6.5rem]'>
-      {projects}
-    </section>
-  );
+  return <section className='mt-[6.5rem]'>{projects}</section>;
 }
