@@ -3,7 +3,7 @@ export const projectsData = [
     title: 'Sillevon',
     link: 'https://sillevon.vercel.app',
     imageUrl: '/sillevon-project.png',
-    status: 'In development...',
+    status: 'In development',
     description:
       'We tranforms the way music has been brings to the scenaries. Choose your own band for any type of events. Have a bundle of profesional artists for any music purposal. If you are a musician, you can make so many contacts and enhace your visibility.',
     codeFront: 'https://github.com/jtnovellis/sillevon',
@@ -19,4 +19,4 @@ export const projectsData = [
     codeFront: 'https://github.com/jtnovellis/latam-airline-frontend-clone',
     codeBack: 'https://github.com/jtnovellis/latam-airline-backend-clone',
   },
-]
+];
